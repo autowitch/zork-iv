@@ -1,13 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x10d4430" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>GNOME Inform 7</generator>
-  <activeNode nodeId="node-0x10d4430"/>
+  <activeNode nodeId="node-0x7f9f7808b3e0"/>
   <item nodeId="node-0x10d4430">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">
+
+
+At last you have found it. A long lost entrance to the Great Underground Empire!
+
+Zork IV - version 0.0.1
+An Interactive Fiction by autowitch
+Release 1 / Serial number 131127 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Room_1
+@Attempt to address illegal object 69105. This is normally fatal.
+XXXX A closed door is to the north and a narrow passage lies to the east.
+
+&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x10d4c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x10d4c70">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Inside is a lantern.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x10d4dd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x10d4dd0">
+    <command xml:space="preserve">enter it</command>
+    <result xml:space="preserve">You can&apos;t because the north is in the way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x10d4f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x10d4f30">
+    <command xml:space="preserve">take north&apos;</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9f7808b120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9f7808b120">
+    <command xml:space="preserve">move north</command>
+    <result xml:space="preserve">(door)
+It is fixed in place.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9f7808b280"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9f7808b280">
+    <command xml:space="preserve">take lantern</command>
+    <result xml:space="preserve">(first entering the northern door)
+Taken.
+
+Room_2
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f9f7808b3e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f9f7808b3e0">
+    <command xml:space="preserve">x it</command>
+    <result xml:space="preserve">You see nothing special about the lantern.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
